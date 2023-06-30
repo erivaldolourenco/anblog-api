@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  anblog-api:
+    image: anblog-api:1.0
+    build: .
+    ports:
+      - "8000:8000"
